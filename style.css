@@ -1,0 +1,151 @@
+
+p {
+    color: white;
+}
+
+/* .top-header {
+    position:relative;
+} */
+
+.top-header {
+    background-color: purple;
+    max-width: 1442px;
+    height: 572px;
+}
+
+
+.slider {
+    height: 572px;
+    max-width: 1442px;
+    position:relative;
+    background-color: purple;
+    /* border: 1px solid black; */
+}
+.slider-element {
+
+}
+.nav-bar {
+    height: 100px;
+    border: 1px solid black;
+}
+.slider-leadText{
+    margin-top: 60px;
+
+    /* border: 1px solid black; */
+}
+
+.slider-leadText h1 {
+    height: 141px;
+    padding-top: 60px;
+    /* width: 380px; */
+    color: #1585BB;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 45px;
+    /* letter-spacing: 36px; */
+}
+
+.slider-leadText p {
+    height: 63px;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 25px;
+    /* letter-spacing: 21px; */
+}
+
+.slider-buttons {
+    height: 140px;
+    padding-top: 40px;
+}
+
+.slider-buttons .btn-lg{
+    border-radius: 3rem!important;
+}
+.slider-buttons .btn {
+    width: 220px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    /* text */
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+}
+button:last-child {
+    margin-left: 10px;
+}
+.slider-buttons .btn:hover {
+    background-color: #DB3982;
+    border: #DB3982; 
+}
+
+.slider-image {
+  position: absolute;
+  left: 950px;
+  top: 0;
+  z-index: 1;
+  width: 47.5%;
+}
+
+.partners {
+    /* height: 50px; */
+    background-color: white;
+    /* margin: auto; */
+    /* width: 60%; */
+    padding: 2% 0;
+    border: 1px solid black;
+
+}
+.partners img{
+    height: 50px;
+    margin-left: 30px;
+}
+
+/* -----------body--------- */
+
+.form{
+    height: 906px;
+    /* max-height: 906px; */
+    max-width: 1442px;
+    position:relative;
+    background-color: purple;
+    /* border: 1px solid black; */
+}
+
+.body-form {
+
+}
+
+.form-section {
+    height: 100%;
+    /* max-height: 906px; */
+    background-color: #475595;
+}
+
+.side-section{
+    padding: 0;
+}
+
+.map{
+    position: absolute;
+    left: -130px;
+    top: 200px;
+    z-index: 2;
+    height: 500px;
+    width: 600px;
+}
+.pattern{
+    position: absolute;
+    /* left: -50px; */
+    top: 405px;
+    z-index: 1;
+    height: 500px;
+    width: 600px;
+}
