@@ -17,7 +17,7 @@ body{
     height: 100px;
 }
 .side-padding {
-    padding: 0 8%;
+    padding: 0 10%;
 }
 
 .banner-widget {
@@ -33,14 +33,52 @@ body{
     padding: 100px 0 5px 0;
     color: #1585BB;
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 900;
-    line-height: 45px;
+    line-height: 40px;
 }
 .banner-widget p {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 20px;
 }
+/* sider-buttons */
+.banner-widget .slider-nav {
+    /* text-align: center; */
+    margin-top: 20px;
+}
+.slider-nav a {
+    color: #428bca;
+    text-decoration: none;
+}
+
+.slider-nav .arrow-prev {
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 9px;
+}
+.slider-nav .arrow-next {
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 9px;
+}
+.slide-nav .slider-dots {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 0px!important;
+}
+.slider-dots li.active-dot {
+    color: #363636;
+}
+.slider-dots li {
+    color: #bbbcbc;
+    display: inline;
+    font-size: 30px;
+    margin-right: 5px;
+}
+/* sider-buttons */
 
 .banner-widget img {
   /* position: absolute; */
