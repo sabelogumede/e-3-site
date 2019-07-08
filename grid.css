@@ -1,16 +1,97 @@
-body
-p {
-    color: white;
+body{
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    max-width: 1442px;
+    /* remove bottom styles */
+    background: black;
+    padding: 0px;
+    
+}
+.top-nav {
+    width: 100%;
+    border: 1px solid black;
+    margin: 0px!important;
+    /* remove below code */
+    height: 100px;
+}
+.side-padding {
+    padding: 0 8%;
 }
 
-/* .top-header {
-    position:relative;
-} */
+.banner-widget {
+    background-color: purple;
+    /* position:relative; */
+    color: #FFFFFF;
+    width: 100%;
+    max-height: 572px;
+    padding: 0px;
+    margin: 0px!important;
+}
+.banner-widget h1 {
+    padding: 100px 0 5px 0;
+    color: #1585BB;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 45px;
+}
+.banner-widget p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.banner-widget img {
+  /* position: absolute; */
+  /* left: 842px;
+  top: 0; 
+  z-index: 1;*/
+  padding: 0px;
+}
+
+.banner-widget .btn-lg{
+    border-radius: 3rem!important;
+}
+.banner-widget .btn {
+    width: 220px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    /* text */
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+}
+button:last-child {
+    margin-left: 10px;
+}
+.banner-widget .btn:hover {
+    background-color: #DB3982;
+    border: #DB3982; 
+}
+
+.partners-widget {
+    background-color: white;
+    height: 97px;
+    padding: auto 0;
+}
+
+.partners-widget img{
+    max-height: 40px;
+    /* skip-first-child */
+    margin-left: 30px;
+}
+
+/* -----------------------delete below css ---------------------*/
 
 .top-header {
     background-color: purple;
     max-width: 1442px;
-    height: 572px;
+    
 }
 
 
@@ -24,10 +105,7 @@ p {
 .slider-element {
 
 }
-.nav-bar {
-    height: 100px;
-    border: 1px solid black;
-}
+
 .slider-leadText{
     margin-top: 60px;
 
@@ -62,9 +140,9 @@ p {
     padding-top: 40px;
 }
 
-.slider-buttons .btn-lg{
+/* .slider-buttons .btn-lg{
     border-radius: 3rem!important;
-}
+} */
 .slider-buttons .btn {
     width: 220px;
     height: 50px;
@@ -86,27 +164,10 @@ button:last-child {
     border: #DB3982; 
 }
 
-.slider-image {
-  position: absolute;
-  left: 950px;
-  top: 0;
-  z-index: 1;
-  width: 47.5%;
-}
 
-.partners {
-    /* height: 50px; */
-    background-color: white;
-    /* margin: auto; */
-    /* width: 60%; */
-    padding: 2% 0;
-    border: 1px solid black;
 
-}
-.partners img{
-    height: 50px;
-    margin-left: 30px;
-}
+
+
 
 /* -----------body--------- */
 
